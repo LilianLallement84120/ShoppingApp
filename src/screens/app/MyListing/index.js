@@ -43,7 +43,7 @@ const MyListing = () => {
 
   const renderItem = ({ item }) => {
     const onProductPress = () => {
-      navigation.navigate('ProductSummaryPage', { idProduit: item.id });
+      //navigation.navigate('ProductSummaryPage', { idProduit: item.id });
     };
 
     const onRemove = () => {
